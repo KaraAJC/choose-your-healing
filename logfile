@@ -1,0 +1,6 @@
+LOG:  database system was shut down at 2017-10-08 10:06:56 CDT
+LOG:  MultiXact member wraparound protections are now enabled
+LOG:  autovacuum launcher started
+LOG:  database system is ready to accept connections
+FATAL:  database "cyh_test" does not exist
+FATAL:  database "cyh_development" does not exist
