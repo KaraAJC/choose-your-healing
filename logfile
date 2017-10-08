@@ -4,3 +4,5 @@ LOG:  autovacuum launcher started
 LOG:  database system is ready to accept connections
 FATAL:  database "cyh_test" does not exist
 FATAL:  database "cyh_development" does not exist
+ERROR:  column choices.order_id does not exist at character 42
+STATEMENT:  SELECT  "choices".* FROM "choices" WHERE "choices"."order_id" = $1 LIMIT $2
