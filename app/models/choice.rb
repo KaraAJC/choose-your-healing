@@ -1,3 +1,0 @@
-class Choice < ApplicationRecord
-  has_many :orders
-end
