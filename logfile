@@ -6,3 +6,6 @@ FATAL:  database "cyh_test" does not exist
 FATAL:  database "cyh_development" does not exist
 ERROR:  column choices.order_id does not exist at character 42
 STATEMENT:  SELECT  "choices".* FROM "choices" WHERE "choices"."order_id" = $1 LIMIT $2
+WARNING:  corrupted statistics file "pg_stat_tmp/global.stat"
+LOG:  using stale statistics instead of current ones because stats collector is not responding
+WARNING:  corrupted statistics file "pg_stat_tmp/global.stat"
